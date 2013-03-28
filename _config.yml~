@@ -1,0 +1,22 @@
+baseurl:       /
+auto:          true
+permalink:     pretty
+
+title:         notidaho
+url:           http://notidaho.github.com
+
+paginate:      5
+
+pygments:      false
+markdown:      rdiscount
+exclude:       ['README.md']
+
+feed:          /atom.xml
+author:
+    name:      notidaho
+    angelfire: http://collectible.angelfire.com
+    github:    https://github.com/notidaho/
+    email:     silversilver@lavabit.com
+    designer:  http://www.philipithomas.com/
+
+description:   collectible generator development
