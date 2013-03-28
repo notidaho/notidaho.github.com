@@ -1,5 +1,46 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/twitter/post.html %}
+
+<article>
+<div id="post">
+<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<p id="date"><small>by Xiaozhi at {{ page.date | date: "%Y-%m-%d" }}</small></p>	
+    
+{{ content }}
+
+<p><strong>Tags</strong>
+{% for tag in page.tags %}
+    <a class="label" href="/tags/#{{ tag }}">#{{ tag }}</a>
+{% endfor %}
+</p>
+
+</div>
+</article>
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"imzhi123"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
+<!--
+<aside>
+
+<div id="related" style="padding-top: 50px">
+ <h3>Related Posts </h3>
+
+   <table id="posts">
+  	  <col style="width:30%">
+      <col style="width:70%">
+    
+</table>
+</aside>
+-->
