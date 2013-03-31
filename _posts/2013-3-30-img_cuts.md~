@@ -1,0 +1,29 @@
+---
+layout: post
+title: Graph-Based Image Segmentation for Collage Material
+tags: collectible
+---
+
+Image Segmentation has been added to the Collectible Generator.
+
+@#$%^$---
+
+stroke test in space testestest by [Lauren Pelc McArthur](http://lauren-p-m.tumblr.com/tagged/Lauren_Pelc_McArthur)
+<img src="http://notidaho.github.com/Images/2013-3-27-img_cuts/1.jpg">
+
+segmented image
+<img src="http://notidaho.github.com/Images/2013-3-27-img_cuts/2.png">
+
+cut region
+<img src="http://notidaho.github.com/Images/2013-3-27-img_cuts/3.png">
+
+collectible generated from cuts of McArthur's work
+<img src="http://notidaho.github.com/Images/2013-3-27-img_cuts/4.png">
+
+&*^%$#---
+
+Fast C++ Implementation based on paper by Pedro F. Felzenszwalb and Daniel P. Huttenlocherh, source below:
+[Efficient Graph-Based Image Segmentation](http://cs.brown.edu/~pff/segment/)
+
+Here is an implementation in Python by Luis Gabriel:
+[Python](https://github.com/luisgabriel/image-segmentation)
